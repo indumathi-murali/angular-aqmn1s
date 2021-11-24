@@ -1,0 +1,74 @@
+<div class="control-section">
+  <div class="col-md-8">
+    <ejs-circulargauge style="display:block;" id="range-container" #range="">
+      <e-axes>
+        <e-axis
+          minimum="350"
+          maximum="850"
+          startAngle="230"
+          endAngle="130"
+          radius="80%"
+          [majorTicks]="majorTicks"
+          [minorTicks]="minorTicks"
+          [lineStyle]="lineStyle"
+        >
+          <e-ranges>
+            <e-range
+              start="350"
+              end="500"
+              startWidth="18"
+              endWidth="18"
+              roundedCornerRadius="17"
+              color="red"
+            >
+            </e-range>
+            <e-range
+              start="510"
+              end="600"
+              roundedCornerRadius="17"
+              startWidth="18"
+              endWidth="18"
+              color="blue"
+            >
+            </e-range>
+            <e-range
+              start="610"
+              end="700"
+              roundedCornerRadius="17"
+              startWidth="18"
+              endWidth="18"
+              color="violet"
+            >
+            </e-range>
+            <e-range
+              start="710"
+              end="790"
+              roundedCornerRadius="17"
+              startWidth="18"
+              endWidth="18"
+              color="lightgreen"
+            >
+            </e-range>
+            <e-range
+              start="800"
+              end="850"
+              roundedCornerRadius="17"
+              startWidth="18"
+              endWidth="18"
+              color="green"
+            >
+            </e-range>
+          </e-ranges>
+        </e-axis>
+      </e-axes>
+    </ejs-circulargauge>
+  </div>
+</div>
+
+<!-- custom code start -->
+<style>
+  .control-section {
+      min-height: 450px;
+  }
+</style>
+<!-- custom code end -->
